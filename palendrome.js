@@ -11,14 +11,11 @@ function checkpalendrome(inputstring){
     }
 
     if(reversestring===inputstring){
-        console.log("THIS STRING IS PALENDROME");
+        document.getElementById('result').innerHTML="<h1>THIS IS A PALENDROME</h1>";
     }
     else{
-        console.log("THIS STRING IS NOT PALENDROME");
+        document.getElementById('result').innerHTML="<h1>THIS IS NOT A PALENDROME</h1>";
 
     }
 }
-
-let palendromestring = "LEVEL";
-checkpalendrome(palendromestring);
 
